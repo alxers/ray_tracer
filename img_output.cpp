@@ -30,9 +30,9 @@ int main() {
             float g = float(i) / float(height);
             float b = 0.2;
 
-            int translatedR = (255.99 * r);
-            int translatedG = (255.99 * g);
-            int translatedB = (255.99 * b);
+            int translatedR = int(255.99 * r);
+            int translatedG = int(255.99 * g);
+            int translatedB = int(255.99 * b);
 
             // std::cout << r << " " << g << " " << b << "\n";
             std::cout << translatedR << " " << translatedG << " " << translatedB << "\n";
