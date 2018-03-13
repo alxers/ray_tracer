@@ -6,7 +6,6 @@
 #include <iostream>
 
 class vec3 {
-    float e[3];
     public:
         vec3() {}
         vec3(float e0, float e1, float e2) {
@@ -37,8 +36,6 @@ class vec3 {
         inline vec3& operator*=(const float t);
         inline vec3& operator/=(const float t);
 
-        inline int length() const { return sqrt(e[0]*e[0] + e[1]*e[1] + e[2]*e[2]); }
-        inline int squared_length() const { return (e[0]*e[0] + e[1]*e[1] + e[2]*e[2]); }
-        inline void make_unit_vector();
+        float e[3];
 };
 #endif
