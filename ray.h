@@ -1,0 +1,23 @@
+#ifndef RAYH
+#define RAYH
+
+#include "vec3.h"
+
+// Ray is a function p(t) = A + t*B
+// p is a 3D position along the line in 3D.
+// A is ray origin, B is ray direction.
+// Parameter t is a number.
+// Plugging different parameter moves vector (ray)
+class ray {
+    public:
+        ray() {}
+        ray(const vec3 &a, const vec3 &b) { A = a; B = a; }
+        vec3 origin() const { return A; }
+        vec3 direction() const { return B; }
+        vec3 point_at_parameter(float t) const { return A + t * B; }
+
+        vec3 A;
+        vec3 B;
+};
+
+#endif
