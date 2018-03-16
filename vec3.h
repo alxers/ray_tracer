@@ -24,7 +24,13 @@ class vec3 {
 
         // returns value of self
         inline const vec3& operator+() const { return *this; }
+        inline vec3 operator+(const vec3 &v);
         inline vec3 operator-() const { return vec3(-e[0], -e[1], -e[2]); }
+        inline vec3 operator-(const vec3 &v);
+        inline vec3 operator*(const vec3 &v);
+        inline vec3 operator*(const float &f);
+        inline vec3 operator/(const vec3 &v);
+        inline vec3 operator/(const float &f);
         inline float operator[](int i) const { return e[i]; }
         inline float& operator[](int i) { return e[i]; }
 
@@ -35,6 +41,10 @@ class vec3 {
 
         inline vec3& operator*=(const float t);
         inline vec3& operator/=(const float t);
+
+        inline float length() const { return sqrt(e[0]*e[0] + e[1]*e[1] + e[2]*e[2]); }
+        inline float squared_length() const { return (e[0]*e[0] + e[1]*e[1] + e[2]*e[2]); }
+        inline void make_unit_vector();
 
         float e[3];
 };

@@ -12,6 +12,7 @@
 // 255 255   0   255 255 255     0   0   0
 
 #include <iostream>
+#include "vec3.h"
 
 int main() {
     int height = 100;
@@ -26,13 +27,11 @@ int main() {
             // we translate to a new range from 0 to 255
             
             // Example g = 0.27, translates to 0.27 * 255.99 = 69.1173
-            float r = float(j) / float(width);
-            float g = float(i) / float(height);
-            float b = 0.2;
+            vec3 col(float(j) / float(width), float(i) / float(height), 0.2);
 
-            int translatedR = int(255.99 * r);
-            int translatedG = int(255.99 * g);
-            int translatedB = int(255.99 * b);
+            int translatedR = int(255.99 * col[0]);
+            int translatedG = int(255.99 * col[1]);
+            int translatedB = int(255.99 * col[2]);
 
             // std::cout << r << " " << g << " " << b << "\n";
             std::cout << translatedR << " " << translatedG << " " << translatedB << "\n";
