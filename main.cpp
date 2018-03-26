@@ -15,6 +15,9 @@
 #include "vec3.h"
 #include "ray.h"
 
+// Blends two colors depending of up/downess of the y coord.
+// "linear blend" or "lerp" is always of the form:
+// blended_val = (1-t) * start_value + t * end_value
 vec3 color(const ray &r) {
     vec3 unit_direction = unit_vector(r.direction());
     float t = 0.5 * (unit_direction.y() + 1.0);

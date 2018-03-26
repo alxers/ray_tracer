@@ -14,3 +14,7 @@ nb-configuration.xml
 *.out
 *.gch
 *.ppm
+
+*.vscode
+img_output
+vec3
