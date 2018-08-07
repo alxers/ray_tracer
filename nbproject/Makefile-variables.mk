@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=ray_tracer_one
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/ray_tracer_one
+CND_ARTIFACT_NAME_Debug=ray_tracer
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/ray_tracer
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=raytracerone.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/raytracerone.tar
+CND_PACKAGE_NAME_Debug=raytracer.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/raytracer.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=ray_tracer_one
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/ray_tracer_one
+CND_ARTIFACT_NAME_Release=ray_tracer
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/ray_tracer
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=raytracerone.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/raytracerone.tar
+CND_PACKAGE_NAME_Release=raytracer.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/raytracer.tar
 #
 # include compiler specific variables
 #

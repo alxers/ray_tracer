@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=ray_tracer_one
+PROJECTNAME=ray_tracer
 
 # Active Configuration
 DEFAULTCONF=Debug
