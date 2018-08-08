@@ -4,7 +4,10 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>hitable.h</itemPath>
+      <itemPath>hitable_list.h</itemPath>
       <itemPath>ray.h</itemPath>
+      <itemPath>sphere.h</itemPath>
       <itemPath>vec3.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -41,9 +44,15 @@
       </compileType>
       <item path=".gitignore" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="hitable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hitable_list.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sphere.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="vec3.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -70,9 +79,15 @@
       </compileType>
       <item path=".gitignore" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="hitable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hitable_list.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sphere.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="vec3.h" ex="false" tool="3" flavor2="0">
       </item>
